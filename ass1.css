@@ -72,9 +72,9 @@ p{
     cursor:pointer;
 }
 .pikachu{
-    width:450px;
-    left: -25%;
-top:2%;
+    width:470px;
+    left: -33%;
+top:1%;
     position:relative;
     z-index:1;
 }
@@ -82,9 +82,21 @@ top:2%;
     margin-right: 19%;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
+    align-items: center;
     
 }
 .dot{
-    height: 12px;
+     display: block;
+     background-color: #F7D02C;
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+opacity: 0.5;
+transition: all 0.3s ease;
+}
+.dot.active{
+   
+background-color: black;
+opacity: 1;
 }
